@@ -1,26 +1,18 @@
-# monetized-feed2
+# monetized-feed
 
 ## Getting Started
-
-1. Add this code to db/schema.prisma:
-
-```
-model Project {
-  id      Int      @default(autoincrement()) @id
-  name    String
-}
-```
-
-2. DB migrate
-
-```
-blitz db migrate
-```
-
-3. Start the dev server
 
 ```
 blitz start
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Adding a blog with monetized RSS feeds
+
+I've created a test blog at [https://gatsby-monetized-rss.netlify.app](https://gatsby-monetized-rss.netlify.app).
+
+You'll be able to add its two RSS feed on the settings page:
+
+- https://gatsby-monetized-rss.netlify.app/rss.xml
+- https://gatsby-monetized-rss.netlify.app/secrethiddenrss.xml

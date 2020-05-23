@@ -1,5 +1,5 @@
 {
-  "name": "monetized-feed2",
+  "name": "monetized-feed",
   "version": "1.0.0",
   "scripts": {
     "start": "blitz start",
@@ -31,7 +31,12 @@
     "@prisma/client": "2.0.0-beta.3",
     "blitz": "0.11.0",
     "react": "0.0.0-experimental-33c3af284",
-    "react-dom": "0.0.0-experimental-33c3af284"
+    "react-dom": "0.0.0-experimental-33c3af284",
+    "rss-parser": "3.8.0",
+    "xml": "1.0.1",
+    "xss": "1.0.6",
+    "@emotion/core": "10.0.28",
+    "@emotion/styled": "10.0.27"
   },
   "devDependencies": {
     "@types/react": "16.9.35",

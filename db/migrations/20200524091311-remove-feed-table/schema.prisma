@@ -1,0 +1,9 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource sqlite {
+  provider = "sqlite"
+  url = "***"
+}
+
