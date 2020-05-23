@@ -7,7 +7,6 @@ type GetFeedInput = {
 }
 
 export default async function getFeed({ where, include }: GetFeedInput) {
-  console.log("where", where)
   const feed = await db.feed.findOne({ where, include })
 
   const { name, privateUrl, publicUrl, pointer } = feed

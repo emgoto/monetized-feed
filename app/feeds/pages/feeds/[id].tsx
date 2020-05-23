@@ -5,7 +5,6 @@ import { getSlug } from "../../../utils"
 import { ItemContainer, DateContainer } from "../../../components/styled"
 
 const Item = ({ title, date, id }) => {
-  console.log("getSlug", getSlug(title))
   return (
     <Link href={`/feeds/${id}/${getSlug(title)}`}>
       <ItemContainer>

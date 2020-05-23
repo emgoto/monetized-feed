@@ -24,10 +24,10 @@ export const getSlug = (title: string): string => {
 export const findPostIndexFromSlug = (slug: string, posts) => {
   let index = 0
   for (let post of posts) {
-    index++
     if (getSlug(post.title) === slug) {
       break
     }
+    index++
   }
   return index
 }
