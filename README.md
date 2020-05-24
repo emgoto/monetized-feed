@@ -1,5 +1,7 @@
 # monetized-feed
 
+This is a demo app to show how we could implement a web-monetized RSS reader.
+
 ## Getting Started
 
 ```
